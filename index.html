@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Halloween Night</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="site-root">
+  <div class="decor moon"></div>
+  <div class="decor bat one">✦</div>
+  <div class="decor bat two">✦</div>
+  <div class="decor bat three">✦</div>
+
+  <main>
+    <header class="hero" id="home">
+      <div class="hero-content">
+        <div class="card-heading">
+          <div class="eyebrow">✦ A magical Halloween greeting ✦</div>
+          <h1>THE NIGHT IS <span>YOURS</span></h1>
+          <p>A little mystery. A little magic. A special surprise awaits.</p>
+        </div>
+
+        <div class="card-scene">
+          <div class="card-trigger" id="greeting-card">
+            <div class="card-front">
+              <span class="small">A little magic awaits</span>
+              <h1>HAPPY<span>HALLOWEEN</span></h1>
+              <span class="card-art">🎃</span>
+              <span class="open-hint">A surprise is waiting beyond the veil</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-actions">
+          <button class="button" id="toggle-card" type="button">✦ Reveal the surprise</button>
+        </div>
+
+        <div class="ornament">✧ ━━━━━ ✦ ━━━━━ ✧</div>
+      </div>
+    </header>
+  </main>
+
+  <div id="spell" role="dialog" aria-modal="true" aria-labelledby="popup-title">
+    <div class="popup">
+      <div class="emoji">🎃 ✨ 👻</div>
+      <h3 id="popup-title">HAPPY<br>HALLOWEEN!</h3>
+      <button class="button" id="close-popup" type="button">Close</button>
+    </div>
+  </div>
+
+  <footer>A LITTLE HALLOWEEN MAGIC <strong>✦ OPEN THE CARD ✦</strong></footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
